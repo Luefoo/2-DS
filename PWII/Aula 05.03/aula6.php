@@ -1,5 +1,5 @@
 <?php
-$idades = [15, 16, 17, 18];
-for ($i=0; $i <4 ; $i++) { 
+$idades = [15, 16, 16, 17, 16, 15];
+for ($i=0; $i <6 ; $i++) { 
     echo "O alunos " . ($i + 1) . "tem idade $idades[$i] \n";
 }
